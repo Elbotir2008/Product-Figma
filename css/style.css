@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  display: inline-block;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #22343d;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.flex-class {
+  display: flex;
+}
+
+.grid-class {
+  display: grid;
+}
+
+.selected {
+  font-weight: 900;
+  color: #22343d;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+button {
+  border-radius: 4px;
+  background: #02897A;
+  padding: 13px 38px;
+  color: white;
+}
+
+nav {
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+nav .nav-logo {
+  padding-left: 4rem;
+}
+nav .nav-links ul {
+  gap: 3rem;
+  color: #22343D;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.8rem;
+  padding-right: 5rem;
+}
+nav .nav-buttons button {
+  margin-top: -1rem;
+}
+nav .nav-buttons img {
+  margin-top: -1rem;
+  margin-bottom: -0.7rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.hero-section {
+  background: rgba(128, 128, 128, 0.1);
+  height: 90rem;
+  margin-bottom: 10rem;
+  margin-top: 2.5rem;
+}
+.hero-section .hero-text {
+  padding: 6rem;
+}
+.hero-section .hero-text h1 {
+  color: #22343d;
+  font-size: 2.3rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 3rem;
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+.hero-section .hero-text .myphar {
+  color: #22343d;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.8rem;
+  width: 32rem;
+}
+.hero-section .hero-text button {
+  margin-top: 5rem;
+}
+.hero-section .hero-text .btns {
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.hero-section .hero-text .btns p {
+  margin-bottom: 0.5rem;
+}
+.hero-section .hero-text .btns p span {
+  text-decoration: underline;
+  color: #02897a;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.hero-section .hero-img img {
+  width: 40rem;
+  margin: 5rem;
+}
+
+.product-section {
+  width: 100%;
+  height: 20rem;
+  margin-top: -40rem;
+  margin-bottom: 10rem;
+  padding: 5rem;
+}
+.product-section .product-txt h1 {
+  text-align: center;
+  color: #22343d;
+  font-size: 3.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  width: 50rem;
+  margin: 0 auto;
+  margin-top: -12rem;
+  margin-bottom: 3rem;
+}
+.product-section .product-boxes {
+  gap: 7rem;
+}
+.product-section .product-boxes h3 {
+  color: #22343d;
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.5rem;
+}
+.product-section .product-boxes p {
+  color: #22343d;
+  font-size: 1.21rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.6rem;
+  font-weight: 400;
+}
+.product-section .mybtn2 {
+  margin-left: 33rem;
+  margin-top: 1rem;
+}
+
+.amico-section {
+  width: 100%;
+  margin-top: 20rem;
+}
+.amico-section .amicos {
+  padding: 5rem;
+}
+.amico-section .amicos .amicos-img img {
+  margin-top: -7rem;
+  width: 35rem;
+}
+.amico-section .amicos .amicos-txt {
+  padding: 3rem;
+}
+
+.rescources-section {
+  background: rgba(128, 128, 128, 0.1);
+  margin-top: 10rem;
+}
+.rescources-section .rescources-txt {
+  padding: 2rem;
+}
+.rescources-section .rescources-txt h1 {
+  font-size: 2rem;
+  margin-left: 38rem;
+  font-weight: 900;
+}
+.rescources-section .rescources-txt p {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 35em;
+  margin-left: 26rem;
+  margin-top: 1.5rem;
+}
+.rescources-section .rescources-boxes {
+  margin-top: 5rem;
+  padding-left: 10rem;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 9rem;
+}
+.rescources-section .rescources-boxes .box2 h3 {
+  margin-top: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.rescources-section .btn2 {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  margin-left: 38rem;
+}
+
+.strategies-section {
+  padding-top: 15rem;
+  background: rgba(128, 128, 128, 0.1);
+}
+.strategies-section .strategies-txt {
+  padding-left: 5rem;
+}
+.strategies-section .strategies-txt h1 {
+  font-size: 2rem;
+}
+.strategies-section .strategies-txt p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.strategies-section .strategies-boxes {
+  padding-left: 5rem;
+  padding-bottom: 10rem;
+}
+.strategies-section .strategies-boxes .box3 img {
+  width: 28rem;
+}
+.strategies-section .strategies-boxes .box3 span {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.strategies-section .strategies-boxes .box3 h5 {
+  width: 25rem;
+  font-size: 2rem;
+}
+.strategies-section .strategies-boxes .box3 .lan {
+  color: #02897a;
+}
+.strategies-section .divs {
+  gap: 1rem;
+  margin-left: 45rem;
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+}
+.strategies-section .divs .div {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+.strategies-section .divs .div2 {
+  background-color: #02897a;
+}
+
+.pricing-section {
+  padding: 10rem;
+  background: rgba(128, 128, 128, 0.1);
+}
+.pricing-section .pricing-txt {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.pricing-section .pricing-txt h1 {
+  font-size: 2rem;
+}
+.pricing-section .pricing-txt p {
+  font-size: 1.3rem;
+}
+.pricing-section .pricing-boxes {
+  gap: 8rem;
+  align-items: center;
+}
+.pricing-section .pricing-boxes .box4 {
+  padding: 3rem;
+  border: 1px solid #22343d;
+}
+.pricing-section .pricing-boxes .box4 * {
+  text-align: center;
+  margin-top: 1rem;
+}
+.pricing-section .pricing-boxes .box4 span {
+  margin-left: 2rem;
+}
+.pricing-section .pricing-boxes .box4 .spanc {
+  margin-left: 4rem;
+}
+.pricing-section .pricing-boxes .box4 .btnfan {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.pricing-section .pricing-boxes .mybox {
+  padding: 3.3rem;
+  background-color: #02897a;
+}
+.pricing-section .pricing-boxes .mybox * {
+  color: #fff;
+}
+.pricing-section .pricing-boxes .mybox .btncolor {
+  background-color: #fff;
+  color: #02897a;
+}
+
+.customers-section {
+  background: rgba(128, 128, 128, 0.1);
+  padding-top: 10rem;
+  padding: 5rem;
+}
+.customers-section .customers-txt {
+  padding: 2rem;
+  text-align: center;
+}
+.customers-section .customers-txt h1 {
+  font-size: 2rem;
+}
+.customers-section .customers-txt p {
+  letter-spacing: 0.2px;
+  width: 35rem;
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+  margin-left: 22rem;
+  margin-bottom: 5rem;
+}
+.customers-section .customers-boxes {
+  gap: 6rem;
+}
+.customers-section .customers-boxes * {
+  margin-top: 1rem;
+}
+.customers-section .customers-boxes .box5 {
+  padding: 3rem;
+  border: 2px solid #dedede;
+}
+.customers-section .customers-boxes .box5 p {
+  width: 18rem;
+}
+.customers-section .customers-boxes .box5 .elipse-txt h6 {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  color: #02897a;
+}
+.customers-section .customers-boxes .box5 .elipse-txt span {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.content-section {
+  padding-top: 10rem;
+  background: rgba(128, 128, 128, 0.1);
+  padding-bottom: 15rem;
+}
+.content-section .color {
+  width: 70%;
+  height: 25rem;
+  background-color: #02897a;
+  color: #fff;
+  border-radius: 3rem;
+  padding: 5rem;
+}
+.content-section .color .content-left h1 {
+  width: 30rem;
+  font-size: 2rem;
+}
+.content-section .color .content-left button {
+  font-weight: 600;
+  margin-top: 3rem;
+  color: #02897a;
+  background-color: #fff;
+}
+.content-section .color .content-right img {
+  margin-top: -4rem;
+  margin-right: -4rem;
+  width: 30rem;
+}
+
+footer {
+  background: rgba(128, 128, 128, 0.1);
+  padding: 5rem;
+}
+footer .girds {
+  padding-bottom: 5rem;
+  grid-template-columns: auto auto auto auto;
+}
+footer .girds .grid-1 .imgone {
+  margin-top: -8rem;
+  gap: 2rem;
+  align-items: center;
+  cursor: pointer;
+}
+footer .girds .grid * {
+  margin-top: 1.4rem;
+}
+footer .girds .grid ul li {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+footer .girds .grid-4 {
+  padding-left: 6rem;
+  padding-top: -5rem;
+}
+footer .girds .grid-4 p {
+  font-weight: 900;
+  width: 25rem;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+footer .girds .grid-4 .myboxes {
+  display: grid;
+}
+footer .girds .grid-4 .myboxes input {
+  padding: 1rem 3rem;
+}
+footer .girds .grid-4 .myboxes button {
+  width: 16rem;
+}
+footer .girds .grid-4 * {
+  margin-top: 2rem;
+}
+footer .footer-bootom {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}/*# sourceMappingURL=style.css.map */

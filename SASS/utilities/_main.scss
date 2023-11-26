@@ -1,0 +1,395 @@
+.hero-section {
+  background: rgb(128, 128, 128, 0.1);
+  height: 90rem;
+  margin-bottom: 10rem;
+  margin-top: 2.5rem;
+  .hero-text {
+    padding: 6rem;
+    h1 {
+      color: #22343d;
+      font-size: 2.3rem;
+      font-family: "Poppins", sans-serif;
+      line-height: 3rem;
+      width: 30rem;
+      margin-bottom: 2rem;
+    }
+    .myphar {
+      color: #22343d;
+      font-size: 1.3rem;
+      font-family: "Poppins", sans-serif;
+      line-height: 2.8rem;
+      width: 32rem;
+    }
+    button {
+      margin-top: 5rem;
+    }
+    .btns {
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
+    .btns p {
+      margin-bottom: 0.5rem;
+    }
+    .btns p span {
+      text-decoration: underline;
+      color: #02897a;
+      font-size: 1rem;
+      font-weight: 900;
+      margin-left: 1rem;
+      cursor: pointer;
+    }
+  }
+  .hero-img img {
+    width: 50rem;
+    margin: 5rem;
+    margin-left: 10rem;
+  }
+}
+
+// Product section
+
+.product-section {
+  width: 100%;
+  height: 20rem;
+  margin-top: -40rem;
+  margin-bottom: 10rem;
+  padding: 5rem;
+  .product-txt {
+    h1 {
+      text-align: center;
+      color: #22343d;
+      font-size: 3.2rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      width: 50rem;
+      margin: 0 auto;
+      margin-top: -12rem;
+      margin-bottom: 3rem;
+    }
+  }
+  .product-boxes {
+    gap: 7rem;
+    h3 {
+      color: #22343d;
+      font-size: 1.7rem;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      color: #22343d;
+      font-size: 1.21rem;
+      font-family: "Poppins", sans-serif;
+      line-height: 2.6rem;
+      font-weight: 400;
+    }
+  }
+  .mybtn2 {
+    margin-left: 33rem;
+    margin-top: 1rem;
+  }
+}
+
+// amico-section
+
+.amico-section {
+  width: 100%;
+  margin-top: 20rem;
+  .amicos {
+    padding: 5rem;
+    .amicos-img {
+      img {
+        margin-top: -7rem;
+        width: 35rem;
+      }
+    }
+    .amicos-txt {
+      padding: 3rem;
+    }
+  }
+}
+
+// rescources-section
+
+.rescources-section {
+  background: rgb(128, 128, 128, 0.1);
+  margin-top: 10rem;
+  .rescources-txt {
+    padding: 2rem;
+    h1 {
+      font-size: 2rem;
+      margin-left: 38rem;
+      font-weight: 900;
+    }
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      width: 35em;
+      margin-left: 26rem;
+      margin-top: 1.5rem;
+    }
+  }
+  .rescources-boxes {
+    margin-top: 5rem;
+    padding-left: 10rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 9rem;
+    .box2 {
+      h3 {
+        margin-top: 4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  .btn2 {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    margin-left: 38rem;
+  }
+}
+
+// strategies-section
+
+.strategies-section {
+  padding-top: 15rem;
+  background: rgb(128, 128, 128, 0.1);
+  .strategies-txt {
+    padding-left: 5rem;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+  }
+  .strategies-boxes {
+    padding-left: 5rem;
+    padding-bottom: 10rem;
+    .box3 {
+      img {
+        width: 28rem;
+      }
+      span {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      h5 {
+        width: 25rem;
+        font-size: 2rem;
+      }
+      .lan {
+        color: #02897a;
+      }
+    }
+  }
+  .divs {
+    gap: 1rem;
+    margin-left: 45rem;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+    .div {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    .div2 {
+      background-color: #02897a;
+    }
+  }
+}
+
+// pricing-section
+
+.pricing-section {
+  padding: 10rem;
+  background: rgb(128, 128, 128, 0.1);
+  .pricing-txt {
+    text-align: center;
+    padding-bottom: 5rem;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+  .pricing-boxes {
+    gap: 8rem;
+    align-items: center;
+    .box4 {
+      padding: 3rem;
+      border: 1px solid #22343d;
+      * {
+        text-align: center;
+        margin-top: 1rem;
+      }
+      span {
+        margin-left: 2rem;
+      }
+      .spanc {
+        margin-left: 4rem;
+      }
+      .btnfan {
+        margin-top: 2rem;
+        margin-left: 2rem;
+      }
+    }
+    .mybox {
+      padding: 3.3rem;
+      background-color: #02897a;
+      * {
+        color: #fff;
+      }
+      .btncolor {
+        background-color: #fff;
+        color: #02897a;
+      }
+    }
+  }
+}
+
+// customers-section
+
+.customers-section {
+  background: rgb(128, 128, 128, 0.1);
+  padding-top: 10rem;
+  padding: 5rem;
+  .customers-txt {
+    padding: 2rem;
+    text-align: center;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      letter-spacing: 0.2px;
+      width: 35rem;
+      font-size: 1.2rem;
+      margin-top: 0.8rem;
+      margin-left: 22rem;
+      margin-bottom: 5rem;
+    }
+  }
+  .customers-boxes {
+    gap: 6rem;
+    * {
+      margin-top: 1rem;
+    }
+    .box5 {
+      padding: 3rem;
+      border: 2px solid #dedede;
+      p {
+        width: 18rem;
+      }
+      .elipse-txt {
+        h6 {
+          margin-left: 1rem;
+          font-size: 1.3rem;
+          color: #02897a;
+        }
+        span {
+          font-size: 1.2rem;
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+// content-section
+
+.content-section {
+  padding-top: 10rem;
+  background: rgb(128, 128, 128, 0.1);
+  padding-bottom: 15rem;
+  .color {
+    width: 70%;
+    height: 25rem;
+    background-color: #02897a;
+    color: #fff;
+    border-radius: 3rem;
+    padding: 5rem;
+    .content-left {
+      h1 {
+        width: 30rem;
+        font-size: 2rem;
+      }
+      button {
+        font-weight: 600;
+        margin-top: 3rem;
+        color: #02897a;
+        background-color: #fff;
+      }
+    }
+    .content-right {
+      img {
+        margin-top: -4rem;
+        margin-right: -4rem;
+        width: 30rem;
+      }
+    }
+  }
+}
+
+// footer
+
+footer {
+  background: rgb(128, 128, 128, 0.1);
+  padding: 5rem;
+  .girds {
+    padding-bottom: 5rem;
+    grid-template-columns: auto auto auto auto;
+    .grid-1 {
+      .imgone {
+        margin-top: -8rem;
+        gap: 2rem;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+    .grid {
+      * {
+        margin-top: 1.4rem;
+      }
+      ul {
+        li {
+          font-size: 1.1rem;
+          cursor: pointer;
+        }
+      }
+    }
+    .grid-4 {
+      padding-left: 6rem;
+      padding-top: -5rem;
+      p {
+        font-weight: 900;
+        width: 25rem;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+      }
+      .myboxes {
+        display: grid;
+        input {
+          padding: 1rem 3rem;
+        }
+        button {
+          width: 16rem;
+        }
+      }
+      * {
+        margin-top: 2rem;
+      }
+    }
+  }
+  .footer-bootom {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+  }
+}
